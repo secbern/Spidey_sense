@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Enhorabuena! ¡Has ganado!</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .prize-box { text-align: center; padding: 24px; background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%); border-radius: 8px; margin-bottom: 20px; }
+    .prize-box h2 { color: #e65100; margin: 0 0 8px; }
+    .prize-amount { font-size: 2rem; font-weight: 700; color: #c62828; }
+  </style>
+</head>
+<body>
+  <div class="training-banner">
+    <span class="banner-text">Demostración: Estafa de premio / lotería.</span>
+    <a href="index.html">Volver al listado</a>
+    <span class="lang-toggle">| <a href="../prize-lottery.html">English</a></span>
+  </div>
+
+  <div class="what-to-notice">
+    <div class="section">
+      <strong>En este escenario (premio / lotería):</strong>
+      No puedes ganar un sorteo en el que no participaste. Las loterías reales no piden tasas ni datos bancarios para "liberar" el premio. Los plazos urgentes ("¡24 horas!") son una táctica de presión. Nunca pagues dinero para recibir un "premio".
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <div class="prize-box">
+      <h2>¡ENHORABUENA!</h2>
+      <p style="margin: 0 0 8px;">Has sido seleccionado ganador en nuestro sorteo internacional.</p>
+      <p class="prize-amount">2.500.000,00 USD</p>
+      <p style="margin: 0; font-size: 14px;">Código de reclamación: WN-88472-XX</p>
+    </div>
+    <p class="urgency">⏱ Reclama en 24 horas o tu premio se reassignará.</p>
+    <p>Para liberar el premio necesitamos verificar tu identidad y cubrir tasas de gestión.</p>
+    <form onsubmit="event.preventDefault(); alert('Solo formación – no se envían datos.');">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Teléfono" required>
+      <input type="text" placeholder="Banco y cuenta (para transferencia)">
+      <p style="font-size: 14px;">Tasa de gestión: 299 € (reembolsable al liberar fondos).</p>
+      <button type="submit">Reclamar mi premio ahora</button>
+    </form>
+  </div>
+
+  <a class="back-link" href="index.html">← Todos los escenarios</a>
+</body>
+</html>

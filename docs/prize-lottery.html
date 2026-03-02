@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Congratulations! You Are a Winner!</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .prize-box { text-align: center; padding: 24px; background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%); border-radius: 8px; margin-bottom: 20px; }
+    .prize-box h2 { color: #e65100; margin: 0 0 8px; }
+    .prize-amount { font-size: 2rem; font-weight: 700; color: #c62828; }
+  </style>
+</head>
+<body>
+  <div class="training-banner">
+    <span class="banner-text">Training demo: Prize / lottery scam.</span>
+    <a href="index.html">Back to list</a>
+    <span class="lang-toggle">| <a href="es/prize-lottery.html">Español</a></span>
+  </div>
+
+  <div class="what-to-notice">
+    <div class="section">
+      <strong>In this scenario (prize / lottery):</strong>
+      You can't win a contest you didn't enter. Real lotteries don't ask for fees or your bank details to "release" winnings. Urgent deadlines ("24 hours!") are a pressure tactic. Never pay money to receive a "prize."
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <div class="prize-box">
+      <h2>CONGRATULATIONS!</h2>
+      <p style="margin: 0 0 8px;">You have been selected as a winner in our International Draw.</p>
+      <p class="prize-amount">$2,500,000.00 USD</p>
+      <p style="margin: 0; font-size: 14px;">Claim code: WN-88472-XX</p>
+    </div>
+    <p class="urgency">⏱ Claim within 24 hours or your prize will be reassigned!</p>
+    <p>To release your winnings we need to verify your identity and cover processing fees.</p>
+    <form onsubmit="event.preventDefault(); alert('Training only – no data sent.');">
+      <input type="text" placeholder="Full legal name" required>
+      <input type="email" placeholder="Email address" required>
+      <input type="tel" placeholder="Phone number" required>
+      <input type="text" placeholder="Bank name and account (for transfer)">
+      <p style="font-size: 14px;">Processing fee: $299 (refundable when funds are released).</p>
+      <button type="submit">Claim my prize now</button>
+    </form>
+  </div>
+
+  <a class="back-link" href="index.html">← All fraud scenarios</a>
+</body>
+</html>

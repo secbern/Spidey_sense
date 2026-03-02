@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate Now – Help Disaster Victims</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .hero { background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); color: white; padding: 28px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
+    .hero h2 { margin: 0 0 8px; }
+    .amounts { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
+    .amounts button { width: auto; padding: 12px 20px; margin: 0; }
+    .amounts button:first-of-type { background: #0d47a1; }
+  </style>
+</head>
+<body>
+  <div class="training-banner">
+    <span class="banner-text">Training demo: Fake charity.</span>
+    <a href="index.html">Back to list</a>
+    <span class="lang-toggle">| <a href="es/fake-charity.html">Español</a></span>
+  </div>
+
+  <div class="what-to-notice">
+    <div class="section">
+      <strong>In this scenario (fake charity):</strong>
+      After real disasters, fake charities appear quickly. Check the organization's name on a trusted site (e.g. Charity Navigator, or official government registries). Real charities don't pressure you with "we're almost at our goal" or ask for card details on an unfamiliar page. Give through the charity's official website that you type in yourself.
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <div class="hero">
+      <h2>Help Families Affected by the Recent Disaster</h2>
+      <p style="margin: 0; opacity: 0.95;">Every dollar goes directly to victims. 100% tax deductible. We're a registered 501(c)(3).</p>
+    </div>
+    <p>Your donation will provide food, shelter, and medical supplies. Time is critical – give now.</p>
+    <p class="urgency">Goal: $500,000. We're at $487,000 – we need you!</p>
+    <div class="amounts">
+      <button type="button" onclick="alert('Training only.');">$50</button>
+      <button type="button" onclick="alert('Training only.');">$100</button>
+      <button type="button" onclick="alert('Training only.');">$250</button>
+      <button type="button" onclick="alert('Training only.');">$500</button>
+      <button type="button" onclick="alert('Training only.');">Other</button>
+    </div>
+    <form onsubmit="event.preventDefault(); alert('Training only – no donation.');">
+      <input type="text" placeholder="Full name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Credit card number">
+      <input type="text" placeholder="Expiry & CVV">
+      <button type="submit">Donate now</button>
+    </form>
+    <p style="font-size: 12px; color: #888;">Donations are processed by SecureGive™. You will receive a receipt by email.</p>
+  </div>
+
+  <a class="back-link" href="index.html">← All fraud scenarios</a>
+</body>
+</html>

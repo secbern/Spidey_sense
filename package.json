@@ -1,0 +1,11 @@
+{
+  "name": "spidey-sense-extension",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Senior-friendly anti-fraud Chrome/Chromium extension (Manifest V3, local heuristics first).",
+  "scripts": {
+    "lint": "echo \"No linter configured yet\"",
+    "build": "echo \"Load this folder as an unpacked extension in Chrome\""
+  }
+}
+

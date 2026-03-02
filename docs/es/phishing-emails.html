@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Correos de phishing – Cómo detectarlos</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="training-banner">
+    <span class="banner-text">Demostración: Correos de phishing.</span>
+    <a href="index.html">Volver al listado</a>
+    <span class="lang-toggle">| <a href="../phishing-emails.html">English</a></span>
+  </div>
+
+  <div class="what-to-notice">
+    <div class="section">
+      <strong>Cómo comprobar el remitente real (correos)</strong>
+      El <strong>nombre que se muestra</strong> (p. ej. "PayPal" o "Tu banco") puede ser cualquiera — no demuestra quién envió el correo. Comprueba siempre la <strong>dirección de correo real</strong> (la parte entre los corchetes angulares o en el campo "De" al expandirlo). En móvil o tablet, toca el nombre para ver la dirección real. En el ordenador, abre el mensaje y busca los detalles de "De" o "Mostrar original" / "Ver código fuente" para ver el remitente real. Revisa también <strong>Responder a</strong> si aparece — la respuesta podría ir a otra dirección falsa. En los enlaces, <strong>pasa el cursor</strong> (o mantén pulsado) para ver la URL real antes de hacer clic; el texto visible puede decir "paypal.com" y el enlace llevar a otro sitio.
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <h2 style="margin: 0 0 8px;">Ejemplo 1: Falsa "alerta de cuenta"</h2>
+    <p style="color: #666; margin: 0 0 16px;">Solo formación. Todas las direcciones y enlaces están desactivados.</p>
+  </div>
+
+  <div class="email-example">
+    <div class="email-header">
+      <div class="email-from">
+        <span class="label">De:</span>
+        <strong>Seguridad PayPal</strong> &lt;noreply@paypa1-account[.]com&gt;
+      </div>
+      <div class="email-subject">
+        <span class="label">Asunto:</span>
+        Acción requerida: verifica tu cuenta
+      </div>
+    </div>
+    <div class="email-body">
+      <p>Estimado cliente,</p>
+      <p>Hemos detectado actividad inusual en tu cuenta. Para evitar la suspensión, verifica tu identidad en 24 horas.</p>
+      <p><a href="#">Inicia sesión aquí para verificar</a></p>
+      <p>Si no has solicitado esto, ignora este mensaje.</p>
+      <p>— PayPal</p>
+      <div class="red-flag">
+        <strong>Por qué es sospechoso</strong>
+        El nombre muestra "Seguridad PayPal" pero la dirección real es <span class="defanged">noreply@paypa1-account[.]com</span> — un 1 en lugar de L, y "paypa1-account" no es el dominio de PayPal. PayPal real usa direcciones como @paypal.com. El enlace llevaría a un sitio falso; pasa el cursor para ver la URL real.
+      </div>
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <h2 style="margin: 0 0 8px;">Ejemplo 2: Falsa "entrega" o "documento"</h2>
+    <p style="color: #666; margin: 0 0 16px;">Solo formación.</p>
+  </div>
+
+  <div class="email-example">
+    <div class="email-header">
+      <div class="email-from">
+        <span class="label">De:</span>
+        <strong>Amazon</strong> &lt;ship@amaz0n-orders[.]support&gt;
+      </div>
+      <div class="email-subject">
+        <span class="label">Asunto:</span>
+        No hemos podido entregar tu paquete
+      </div>
+    </div>
+    <div class="email-body">
+      <p>Intentamos entregar tu pedido pero la dirección era incorrecta.</p>
+      <p>Confirma tus datos y reprograma: <a href="#">Actualizar entrega</a></p>
+      <p>Gracias,<br>Amazon</p>
+      <div class="red-flag">
+        <strong>Por qué es sospechoso</strong>
+        El remitente real es <span class="defanged">ship@amaz0n-orders[.]support</span> — cero en lugar de O, y el dominio termina en <span class="defanged">.support</span>, no .com. Los correos reales de Amazon vienen de @amazon.com (o similar). Nunca introduzcas datos de pago o dirección desde un enlace de un correo; entra escribiendo amazon.com tú mismo.
+      </div>
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <h2 style="margin: 0 0 8px;">Ejemplo 3: Petición urgente de "jefe" o "informática"</h2>
+    <p style="color: #666; margin: 0 0 16px;">Solo formación.</p>
+  </div>
+
+  <div class="email-example">
+    <div class="email-header">
+      <div class="email-from">
+        <span class="label">De:</span>
+        <strong>David Chen (CEO)</strong> &lt;d.chen@company-internal[.]xyz&gt;
+      </div>
+      <div class="email-subject">
+        <span class="label">Asunto:</span>
+        Urgente – necesito tarjetas regalo hoy
+      </div>
+    </div>
+    <div class="email-body">
+      <p>Hola, estoy en una reunión y no puedo hablar. Necesito que compres 500 € en tarjetas regalo de Apple y me envíes los códigos lo antes posible. Responde a este correo con los códigos.</p>
+      <p>Gracias,<br>David</p>
+      <div class="red-flag">
+        <strong>Por qué es sospechoso</strong>
+        Las peticiones de trabajo legítimas no son "compra tarjetas regalo y envíame los códigos". La dirección <span class="defanged">d.chen@company-internal[.]xyz</span> usa un dominio .xyz genérico que una empresa real no usaría para correo interno. Verifica llamando o escribiendo a la persona por un canal que ya conozcas (no respondiendo a este correo).
+      </div>
+    </div>
+  </div>
+
+  <div class="what-to-notice" style="margin-top: 24px;">
+    <div class="section">
+      <strong>Lista rápida: comprobar el remitente real</strong>
+      (1) Ignora el nombre mostrado; mira la <strong>dirección de correo real</strong> después de &lt; &gt; o en los detalles de "De". (2) Comprueba si el dominio (la parte después de @) es realmente el de la empresa — sin erratas, sin .xyz/.top/.click en lugar de .com. (3) Pasa el cursor sobre los enlaces para ver la URL real antes de hacer clic. (4) No respondas ni hagas clic cuando el mensaje sea urgente y pida inicio de sesión, pago o tarjetas regalo; entra en el sitio real o contacta a la persona por otro medio.
+    </div>
+  </div>
+
+  <a class="back-link" href="index.html">← Todos los escenarios</a>
+</body>
+</html>

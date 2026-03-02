@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spidey Sense Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main>
+      <h1 id="options-title"></h1>
+
+      <section>
+        <label>
+          <input type="checkbox" id="enabled-toggle" />
+          <span id="enabled-label"></span>
+        </label>
+      </section>
+
+      <section>
+        <label for="language-select" id="language-label"></label>
+        <select id="language-select">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="de">Deutsch</option>
+        </select>
+        <p class="hint" id="language-hint"></p>
+      </section>
+
+      <section>
+        <p id="sensitivity-label"></p>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="sensitivity" value="conservative" />
+            <span id="sensitivity-conservative"></span>
+          </label>
+          <label>
+            <input type="radio" name="sensitivity" value="balanced" />
+            <span id="sensitivity-balanced"></span>
+          </label>
+          <label>
+            <input type="radio" name="sensitivity" value="strict" />
+            <span id="sensitivity-strict"></span>
+          </label>
+        </div>
+      </section>
+
+      <section>
+        <label>
+          <input type="checkbox" id="advanced-toggle" />
+          <span id="advanced-label"></span>
+        </label>
+        <p class="hint" id="advanced-description"></p>
+      </section>
+    </main>
+
+    <script src="options.js"></script>
+  </body>
+  </html>
+

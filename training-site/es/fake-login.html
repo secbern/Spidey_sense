@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión – Tu cuenta</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .fake-logo { color: #1a73e8; }
+    .scam-content .small { font-size: 14px; color: #666; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <div class="training-banner">
+    <span class="banner-text">Demostración: Inicio de sesión falso (phishing).</span>
+    <a href="index.html">Volver al listado</a>
+    <span class="lang-toggle">| <a href="../fake-login.html">English</a></span>
+  </div>
+
+  <div class="what-to-notice">
+    <div class="section">
+      <strong>En este escenario (phishing):</strong>
+      Comprueba la dirección real en la barra del navegador. ¿Es realmente el dominio de tu banco? ¿La escribiste tú o entraste por un enlace de correo o mensaje? Los bancos reales no piden "verificar" iniciando sesión desde un enlace. En caso de duda, entra en la web del banco escribiendo la URL tú mismo o usando un marcador guardado. Para correos que llevan a inicios de sesión falsos, consulta <a href="phishing-emails.html">Correos de phishing</a>. Para leer URLs y detectar dominios falsos, consulta <a href="typosquatting.html">Typosquatting y lectura de URLs</a>.
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <div class="fake-logo">SecureBank Online</div>
+    <h2 style="margin: 0 0 8px;">Iniciar sesión en tu cuenta</h2>
+    <p style="color: #666; margin: 0 0 20px;">Introduce tus datos para continuar.</p>
+    <form onsubmit="event.preventDefault(); alert('Solo formación – no se envían datos.');">
+      <label for="email">Email o teléfono</label>
+      <input type="text" id="email" placeholder="tu@ejemplo.com" autocomplete="off">
+      <label for="pwd">Contraseña</label>
+      <input type="password" id="pwd" placeholder="••••••••" autocomplete="off">
+      <button type="submit">Iniciar sesión</button>
+    </form>
+    <p class="small">¿Olvidaste la contraseña? | Crear cuenta</p>
+  </div>
+
+  <a class="back-link" href="index.html">← Todos los escenarios</a>
+</body>
+</html>

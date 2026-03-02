@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spidey Sense</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1 id="title"></h1>
+      <div id="status" aria-live="polite">
+        <div id="risk-label" class="risk-label"></div>
+        <div id="risk-score" class="risk-score"></div>
+        <div id="risk-note" class="risk-note"></div>
+      </div>
+      <div id="actions">
+        <button id="mark-safe" class="btn primary"></button>
+        <button id="report-scam" class="btn danger"></button>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+  </html>
+

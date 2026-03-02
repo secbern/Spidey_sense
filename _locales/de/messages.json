@@ -1,0 +1,56 @@
+{
+  "app_name": { "message": "Spidey Sense – Betrugswarnung" },
+  "app_description": { "message": "Hilft Seniorinnen und Senioren sowie Nicht-Muttersprachlern, riskante Websites mit klaren Warnungen zu erkennen." },
+  "banner_safe": { "message": "Bisher sieht alles in Ordnung aus." },
+  "banner_caution": { "message": "Bitte vorsichtig sein. Etwas wirkt ungewöhnlich." },
+  "banner_danger": { "message": "Achtung: Das könnte ein Betrug sein. Wir empfehlen, die Seite zu verlassen." },
+  "banner_leave_button": { "message": "Diese Seite verlassen" },
+  "banner_continue_button": { "message": "Trotzdem fortfahren" },
+  "banner_learn_more_button": { "message": "Mehr erfahren" },
+  "banner_learn_more_text": { "message": "Betrüger fordern oft Geld, Geschenkkarten, Passwörter oder Fernzugriff auf Ihren Computer. Bei Unsicherheit schließen Sie diese Seite und fragen Sie eine vertraute Person." },
+  "popup_title": { "message": "Spidey Sense" },
+  "popup_off_label": { "message": "Spidey Sense ist für diese Seite deaktiviert." },
+  "popup_safe_label": { "message": "Bisher sieht alles in Ordnung aus." },
+  "popup_caution_label": { "message": "Bitte vorsichtig sein." },
+  "popup_danger_label": { "message": "Achtung: Das könnte ein Betrug sein." },
+  "popup_score_prefix": { "message": "Risikostufe:" },
+  "popup_note_text": { "message": "Betrüger hetzen oft oder fordern Geld, Geschenkkarten oder persönliche Codes." },
+  "popup_mark_safe_button": { "message": "Als sicher markieren" },
+  "popup_report_scam_button": { "message": "Als Betrug melden" },
+  "options_title": { "message": "Spidey Sense Einstellungen" },
+  "options_enabled_label": { "message": "Spidey Sense aktivieren" },
+  "options_language_label": { "message": "Sprache" },
+  "options_language_hint": { "message": "Englisch, Spanisch und Deutsch verfügbar." },
+  "options_sensitivity_label": { "message": "Wie vorsichtig sollen wir sein?" },
+  "options_sensitivity_conservative": { "message": "Zurückhaltend (weniger Warnungen)" },
+  "options_sensitivity_balanced": { "message": "Ausgewogen" },
+  "options_sensitivity_strict": { "message": "Strikt (mehr Warnungen)" },
+  "options_advanced_label": { "message": "Erweiterter Schutz (Cloud-Prüfung)" },
+  "options_advanced_description": { "message": "Wenn in Zukunft aktiviert, könnten kleine Datenmengen an einen sicheren Server gesendet werden. Dies ist immer optional." },
+  "popup_reason_allowlist": { "message": "Diese Seite steht auf Ihrer sicheren Liste." },
+  "popup_reason_blocklist": { "message": "Diese Seite wurde als Betrug gemeldet." },
+  "popup_reason_suspicious_tld": { "message": "Die Webadresse verwendet eine verdächtige Endung, die Betrüger oft nutzen." },
+  "popup_reason_long_domain": { "message": "Die Webadresse ist ungewöhnlich lang, mögliches Betrugszeichen." },
+  "popup_reason_many_subdomains": { "message": "Die Adresse hat viele Teile, mögliches Betrugszeichen." },
+  "popup_reason_many_digits": { "message": "Die Adresse enthält viele Zahlen, mögliches Betrugszeichen." },
+  "popup_reason_brand_lookalike": { "message": "Diese Seite ähnelt einer bekannten Marke, könnte aber gefälscht sein." },
+  "popup_reason_unparsable": { "message": "Wir konnten diese Webadresse nicht überprüfen." },
+  "popup_reason_content_gift_cards": {
+    "message": "Diese Seite spricht über das Bezahlen mit Geschenkkarten oder Prepaid-Karten, ein häufiges Betrugsmittel."
+  },
+  "popup_reason_content_wire_transfer": {
+    "message": "Diese Seite erwähnt Überweisungen oder Geldtransfer-Dienste, die Betrüger oft nutzen."
+  },
+  "popup_reason_content_remote_access": {
+    "message": "Diese Seite spricht über Fernzugriff auf Ihren Computer, was gefährlich sein kann."
+  },
+  "popup_reason_content_account_verification": {
+    "message": "Diese Seite fordert Sie auf, Ihr Konto zu bestätigen oder zu verifizieren – ein mögliches Phishing-Zeichen."
+  },
+  "popup_reason_content_urgent_threat": {
+    "message": "Diese Seite verwendet dringende Drohungen, z. B. dass Ihr Konto bald geschlossen wird – ein typischer Betrugstrick."
+  },
+  "popup_reason_content_crypto": {
+    "message": "Diese Seite spricht über das Senden von Bitcoin oder Kryptowährungen, was Betrüger oft verlangen."
+  }
+}

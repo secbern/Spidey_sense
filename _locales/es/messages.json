@@ -1,0 +1,56 @@
+{
+  "app_name": { "message": "Spidey Sense – Aviso de estafas" },
+  "app_description": { "message": "Ayuda a personas mayores y no nativas a detectar sitios web riesgosos con advertencias claras." },
+  "banner_safe": { "message": "Por ahora todo bien." },
+  "banner_caution": { "message": "Tenga cuidado. Algo parece inusual." },
+  "banner_danger": { "message": "Peligro: Podría ser una estafa. Le recomendamos salir." },
+  "banner_leave_button": { "message": "Salir de esta página" },
+  "banner_continue_button": { "message": "Continuar de todos modos" },
+  "banner_learn_more_button": { "message": "Saber más" },
+  "banner_learn_more_text": { "message": "Las estafas suelen pedir dinero, tarjetas de regalo, contraseñas o acceso remoto a su computadora. Si tiene dudas, cierre esta página y pregunte a un familiar o amigo de confianza." },
+  "popup_title": { "message": "Spidey Sense" },
+  "popup_off_label": { "message": "Spidey Sense está desactivado para esta página." },
+  "popup_safe_label": { "message": "Por ahora todo bien." },
+  "popup_caution_label": { "message": "Tenga cuidado." },
+  "popup_danger_label": { "message": "Peligro: Podría ser una estafa." },
+  "popup_score_prefix": { "message": "Nivel de riesgo:" },
+  "popup_note_text": { "message": "Las estafas suelen apurarlo o pedir dinero, tarjetas de regalo o códigos personales." },
+  "popup_mark_safe_button": { "message": "Marcar como seguro" },
+  "popup_report_scam_button": { "message": "Reportar como estafa" },
+  "options_title": { "message": "Configuración de Spidey Sense" },
+  "options_enabled_label": { "message": "Activar Spidey Sense" },
+  "options_language_label": { "message": "Idioma" },
+  "options_language_hint": { "message": "Inglés, español y alemán disponibles." },
+  "options_sensitivity_label": { "message": "¿Qué tan cuidadoso debemos ser?" },
+  "options_sensitivity_conservative": { "message": "Conservador (menos alertas)" },
+  "options_sensitivity_balanced": { "message": "Equilibrado" },
+  "options_sensitivity_strict": { "message": "Estricto (más alertas)" },
+  "options_advanced_label": { "message": "Protección avanzada (verificación en la nube)" },
+  "options_advanced_description": { "message": "En el futuro, si se activa, se podrían enviar pequeños datos a un servidor seguro para mejorar la protección. Siempre será opcional." },
+  "popup_reason_allowlist": { "message": "Este sitio está en su lista de seguros." },
+  "popup_reason_blocklist": { "message": "Este sitio fue reportado como estafa." },
+  "popup_reason_suspicious_tld": { "message": "La dirección web usa un final sospechoso que usan los estafadores." },
+  "popup_reason_long_domain": { "message": "La dirección web es inusualmente larga, posible señal de estafa." },
+  "popup_reason_many_subdomains": { "message": "La dirección tiene muchas partes, posible señal de estafa." },
+  "popup_reason_many_digits": { "message": "La dirección tiene muchos números, posible señal de estafa." },
+  "popup_reason_brand_lookalike": { "message": "Este sitio parece una marca conocida pero puede no ser el real." },
+  "popup_reason_unparsable": { "message": "No pudimos verificar esta dirección web." },
+  "popup_reason_content_gift_cards": {
+    "message": "Esta página habla de pagar con tarjetas de regalo o tarjetas prepagadas, algo común en estafas."
+  },
+  "popup_reason_content_wire_transfer": {
+    "message": "Esta página menciona transferencias bancarias o servicios de envío de dinero, que usan muchos estafadores."
+  },
+  "popup_reason_content_remote_access": {
+    "message": "Esta página habla de acceso remoto a su computadora, lo cual puede ser peligroso."
+  },
+  "popup_reason_content_account_verification": {
+    "message": "Esta página le pide verificar o confirmar su cuenta, lo que puede ser una señal de phishing."
+  },
+  "popup_reason_content_urgent_threat": {
+    "message": "Esta página usa amenazas urgentes, como cerrar su cuenta pronto, un truco común en estafas."
+  },
+  "popup_reason_content_crypto": {
+    "message": "Esta página habla de enviar bitcoin o criptomonedas, algo que los estafadores suelen pedir."
+  }
+}

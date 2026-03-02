@@ -1,0 +1,351 @@
+/* Spidey Sense Training Site – shared styles */
+:root {
+  --training-badge: #1a5fb4;
+  --training-bg: #f6f7f9;
+  --scam-red: #c01c28;
+  --scam-amber: #e5a50a;
+  --text: #1e1e1e;
+  --text-muted: #4a5568;
+  --card-bg: #fff;
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --header-bg: #1e3a5f;
+  --header-text: #fff;
+  --radius: 10px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.06);
+  --shadow-hover: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--training-bg);
+}
+
+/* Site header – landing and consistency */
+.site-header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 28px 24px 24px;
+  text-align: center;
+}
+
+.header-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.site-title {
+  margin: 0 0 6px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-tagline {
+  margin: 0 0 14px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.lang-nav {
+  font-size: 0.95rem;
+}
+
+.lang-nav a {
+  color: var(--header-text);
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.lang-nav a:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.lang-nav a.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.lang-nav .sep {
+  margin: 0 6px;
+  opacity: 0.7;
+}
+
+/* Training demo banner */
+.training-banner {
+  background: var(--training-badge);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+}
+
+.training-banner a {
+  color: #b4d4ff;
+}
+
+.training-banner .lang-toggle a {
+  color: #b4d4ff;
+}
+
+/* Main content wrapper */
+.main-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+/* Explainer – landing page intro */
+.explainer {
+  background: var(--card-bg);
+  padding: 28px 26px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 32px;
+}
+
+.explainer h2 {
+  margin: 0 0 14px;
+  font-size: 1.35rem;
+  color: var(--text);
+}
+
+.explainer p {
+  margin: 0 0 12px;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.explainer p:last-child {
+  margin-bottom: 0;
+}
+
+/* Scenario grid */
+.scenario-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.section-title {
+  margin: 0 0 6px;
+  font-size: 1.35rem;
+  color: var(--text);
+}
+
+.section-desc {
+  margin: 0 0 20px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.scenario-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border-left: 4px solid var(--training-badge);
+  transition: box-shadow 0.2s ease;
+}
+
+.scenario-card:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.scenario-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.scenario-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* Page header for scenario pages */
+.page-header {
+  background: var(--card-bg);
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.page-header h1 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+}
+
+.page-header .subtitle {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Content area on scenario pages (no site header) */
+.scenario-page-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+/* Fake content areas that look like real scam pages */
+.scam-content {
+  max-width: 560px;
+  margin: 0 auto 32px;
+  padding: 24px;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.scam-content input,
+.scam-content button {
+  font-size: 16px;
+  padding: 10px 14px;
+  margin: 8px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.scam-content button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.scam-content button:hover {
+  background: #1b5e20;
+}
+
+/* What to watch for – educational callout (at top of page) */
+.what-to-notice {
+  max-width: 560px;
+  margin: 24px auto 32px;
+  padding: 16px 20px;
+  background: #e8f5e9;
+  border-left: 4px solid #2e7d32;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95rem;
+}
+
+.what-to-notice strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.what-to-notice .section {
+  margin-bottom: 14px;
+}
+
+.what-to-notice .section:last-child {
+  margin-bottom: 0;
+}
+
+/* Defanged domain examples – not clickable */
+.defanged {
+  font-family: ui-monospace, monospace;
+  font-size: 0.9em;
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin: 16px 24px;
+  color: var(--training-badge);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Urgency / scam styling */
+.urgency {
+  color: var(--scam-red);
+  font-weight: 600;
+}
+
+.fake-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a73e8;
+  margin-bottom: 16px;
+}
+
+/* Email example blocks */
+.email-example {
+  max-width: 560px;
+  margin: 0 auto 24px;
+  padding: 0;
+  background: var(--card-bg);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+.email-example .email-header {
+  background: #f5f5f5;
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.email-example .email-from {
+  margin-bottom: 6px;
+}
+
+.email-example .email-from .label,
+.email-example .email-subject .label {
+  color: #666;
+  margin-right: 6px;
+}
+
+.email-example .email-body {
+  padding: 16px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.email-example .email-body a {
+  color: #1a73e8;
+}
+
+.email-example .red-flag {
+  background: #ffebee;
+  border-left: 4px solid var(--scam-red);
+  padding: 10px 14px;
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+
+.email-example .red-flag strong {
+  display: block;
+  margin-bottom: 4px;
+}

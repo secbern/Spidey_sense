@@ -1,0 +1,132 @@
+{
+  "app_name": {
+    "message": "Spidey Sense – Scam Warning"
+  },
+  "app_description": {
+    "message": "Helps seniors and non-native speakers spot risky websites with clear, simple warnings."
+  },
+
+  "banner_safe": {
+    "message": "Looks OK so far."
+  },
+  "banner_caution": {
+    "message": "Please be careful. Something looks unusual."
+  },
+  "banner_danger": {
+    "message": "Danger: This may be a scam. We recommend leaving."
+  },
+  "banner_leave_button": {
+    "message": "Leave this page"
+  },
+  "banner_continue_button": {
+    "message": "Continue anyway"
+  },
+  "banner_learn_more_button": {
+    "message": "Learn more"
+  },
+  "banner_learn_more_text": {
+    "message": "Scam websites often ask for money, gift cards, passwords, or remote access to your computer. If you feel unsure, close this page and ask a trusted family member or friend."
+  },
+
+  "popup_title": {
+    "message": "Spidey Sense"
+  },
+  "popup_off_label": {
+    "message": "Spidey Sense is turned off for this page."
+  },
+  "popup_safe_label": {
+    "message": "Looks OK so far."
+  },
+  "popup_caution_label": {
+    "message": "Please be careful."
+  },
+  "popup_danger_label": {
+    "message": "Danger: This may be a scam."
+  },
+  "popup_score_prefix": {
+    "message": "Risk score:"
+  },
+  "popup_note_text": {
+    "message": "Scams often try to rush you or ask for money, gift cards, or personal codes."
+  },
+  "popup_mark_safe_button": {
+    "message": "Mark this as safe"
+  },
+  "popup_report_scam_button": {
+    "message": "Report as scam"
+  },
+
+  "options_title": {
+    "message": "Spidey Sense settings"
+  },
+  "options_enabled_label": {
+    "message": "Turn Spidey Sense on"
+  },
+  "options_language_label": {
+    "message": "Language"
+  },
+  "options_language_hint": {
+    "message": "English, Spanish, and German are available. The extension uses your browser language by default."
+  },
+  "options_sensitivity_label": {
+    "message": "How careful should we be?"
+  },
+  "options_sensitivity_conservative": {
+    "message": "Conservative (fewer alerts)"
+  },
+  "options_sensitivity_balanced": {
+    "message": "Balanced"
+  },
+  "options_sensitivity_strict": {
+    "message": "Strict (more alerts)"
+  },
+  "options_advanced_label": {
+    "message": "Advanced Protection (cloud checks)"
+  },
+  "options_advanced_description": {
+    "message": "When turned on in the future, small pieces of information may be sent to a secure server to improve protection. This will always be optional and clearly explained."
+  },
+  "popup_reason_allowlist": {
+    "message": "This site is on your safe list."
+  },
+  "popup_reason_blocklist": {
+    "message": "This site was reported as a scam."
+  },
+  "popup_reason_suspicious_tld": {
+    "message": "The web address uses a risky ending that scammers often use."
+  },
+  "popup_reason_long_domain": {
+    "message": "The web address is unusually long, which can be a scam sign."
+  },
+  "popup_reason_many_subdomains": {
+    "message": "The web address has many parts, which can be a scam sign."
+  },
+  "popup_reason_many_digits": {
+    "message": "The web address has many numbers, which can be a scam sign."
+  },
+  "popup_reason_brand_lookalike": {
+    "message": "This site looks similar to a trusted brand but may not be the real one."
+  },
+  "popup_reason_unparsable": {
+    "message": "We could not verify this web address."
+  },
+  "popup_reason_content_gift_cards": {
+    "message": "This page talks about paying with gift cards or prepaid cards, which is a common scam trick."
+  },
+  "popup_reason_content_wire_transfer": {
+    "message": "This page mentions wire transfers or money transfer services, which scammers often use."
+  },
+  "popup_reason_content_remote_access": {
+    "message": "This page talks about remote access to your computer, which can be dangerous."
+  },
+  "popup_reason_content_account_verification": {
+    "message": "This page urges you to verify or confirm your account, which can be a phishing sign."
+  },
+  "popup_reason_content_urgent_threat": {
+    "message": "This page uses urgent threats like closing your account soon, a common scam tactic."
+  },
+  "popup_reason_content_crypto": {
+    "message": "This page talks about sending bitcoin or cryptocurrency, which scammers often request."
+  }
+}
+

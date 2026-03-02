@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dona ahora – Ayuda a las víctimas del desastre</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .hero { background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); color: white; padding: 28px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
+    .hero h2 { margin: 0 0 8px; }
+    .amounts { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
+    .amounts button { width: auto; padding: 12px 20px; margin: 0; }
+    .amounts button:first-of-type { background: #0d47a1; }
+  </style>
+</head>
+<body>
+  <div class="training-banner">
+    <span class="banner-text">Demostración: Caridad falsa.</span>
+    <a href="index.html">Volver al listado</a>
+    <span class="lang-toggle">| <a href="../fake-charity.html">English</a></span>
+  </div>
+
+  <div class="what-to-notice">
+    <div class="section">
+      <strong>En este escenario (caridad falsa):</strong>
+      Tras desastres reales aparecen caridades falsas enseguida. Comprueba el nombre de la organización en un sitio fiable (p. ej. Charity Navigator o registros oficiales). Las ONG reales no presionan con "casi hemos llegado al objetivo" ni piden datos de tarjeta en una página desconocida. Dona entrando en la web oficial de la organización que tú escribas.
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <div class="hero">
+      <h2>Ayuda a las familias afectadas por el reciente desastre</h2>
+      <p style="margin: 0; opacity: 0.95;">Cada euro va directo a las víctimas. 100% desgravable. Somos una organización registrada 501(c)(3).</p>
+    </div>
+    <p>Tu donativo proporcionará comida, refugio y material médico. El tiempo es crítico – dona ahora.</p>
+    <p class="urgency">Objetivo: 500.000 €. Vamos por 487.000 € – ¡te necesitamos!</p>
+    <div class="amounts">
+      <button type="button" onclick="alert('Solo formación.');">50 €</button>
+      <button type="button" onclick="alert('Solo formación.');">100 €</button>
+      <button type="button" onclick="alert('Solo formación.');">250 €</button>
+      <button type="button" onclick="alert('Solo formación.');">500 €</button>
+      <button type="button" onclick="alert('Solo formación.');">Otro</button>
+    </div>
+    <form onsubmit="event.preventDefault(); alert('Solo formación – no hay donación.');">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Número de tarjeta">
+      <input type="text" placeholder="Caducidad y CVV">
+      <button type="submit">Donar ahora</button>
+    </form>
+    <p style="font-size: 12px; color: #888;">Las donaciones las procesa SecureGive™. Recibirás un recibo por email.</p>
+  </div>
+
+  <a class="back-link" href="index.html">← Todos los escenarios</a>
+</body>
+</html>

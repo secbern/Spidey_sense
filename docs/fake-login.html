@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in – Your Account</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .fake-logo { color: #1a73e8; }
+    .scam-content .small { font-size: 14px; color: #666; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <div class="training-banner">
+    <span class="banner-text">Training demo: Fake login (phishing).</span>
+    <a href="index.html">Back to list</a>
+    <span class="lang-toggle">| <a href="es/fake-login.html">Español</a></span>
+  </div>
+
+  <div class="what-to-notice">
+    <div class="section">
+      <strong>In this scenario (phishing):</strong>
+      Check the real web address in the browser bar. Is it really your bank's domain? Did you type it or click a link from email/text? Real banks don't ask you to "verify" by logging in from a link. When in doubt, go to the bank's site by typing the URL yourself or using a saved bookmark. For emails that lead to fake logins, see <a href="phishing-emails.html">Phishing emails</a>. For how to read URLs and spot fake domains, see <a href="typosquatting.html">Typosquatting &amp; reading URLs</a>.
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <div class="fake-logo">SecureBank Online</div>
+    <h2 style="margin: 0 0 8px;">Sign in to your account</h2>
+    <p style="color: #666; margin: 0 0 20px;">Enter your credentials to continue.</p>
+    <form onsubmit="event.preventDefault(); alert('Training only – no data sent.');">
+      <label for="email">Email or phone</label>
+      <input type="text" id="email" placeholder="you@example.com" autocomplete="off">
+      <label for="pwd">Password</label>
+      <input type="password" id="pwd" placeholder="••••••••" autocomplete="off">
+      <button type="submit">Sign in</button>
+    </form>
+    <p class="small">Forgot password? | Create account</p>
+  </div>
+
+  <a class="back-link" href="index.html">← All fraud scenarios</a>
+</body>
+</html>

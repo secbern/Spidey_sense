@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing emails – How to spot them</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="training-banner">
+    <span class="banner-text">Training demo: Phishing emails.</span>
+    <a href="index.html">Back to list</a>
+    <span class="lang-toggle">| <a href="es/phishing-emails.html">Español</a></span>
+  </div>
+
+  <div class="what-to-notice">
+    <div class="section">
+      <strong>How to evaluate the true sender (emails)</strong>
+      The <strong>display name</strong> (e.g. "PayPal" or "Your Bank") can be set to anything — it is not proof of who sent the email. Always check the <strong>actual email address</strong> (the part after the angle brackets or in the "From" field when expanded). On phone/tablet, tap the display name to see the real address. On desktop, open the message and look for "From" details or "Show original" / "View source" to see the real sender. Also check <strong>Reply-To</strong> if present — a reply might go to a different, fake address. For links, <strong>hover</strong> (or long-press) to see the real URL before clicking; the visible text can say "paypal.com" while the link goes elsewhere.
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <h2 style="margin: 0 0 8px;">Example 1: Fake "account alert"</h2>
+    <p style="color: #666; margin: 0 0 16px;">Training example only. All addresses and links are defanged.</p>
+  </div>
+
+  <div class="email-example">
+    <div class="email-header">
+      <div class="email-from">
+        <span class="label">From:</span>
+        <strong>PayPal Security</strong> &lt;noreply@paypa1-account[.]com&gt;
+      </div>
+      <div class="email-subject">
+        <span class="label">Subject:</span>
+        Action required: verify your account
+      </div>
+    </div>
+    <div class="email-body">
+      <p>Dear customer,</p>
+      <p>We have detected unusual activity on your account. To avoid suspension, please verify your identity within 24 hours.</p>
+      <p><a href="#">Log in here to verify</a></p>
+      <p>If you did not request this, please ignore this message.</p>
+      <p>— PayPal</p>
+      <div class="red-flag">
+        <strong>Why this is suspicious</strong>
+        Display name says "PayPal Security" but the real address is <span class="defanged">noreply@paypa1-account[.]com</span> — a 1 instead of L, and "paypa1-account" is not PayPal's domain. Real PayPal uses addresses like @paypal.com. The link would go to a fake site; hover to see the real URL.
+      </div>
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <h2 style="margin: 0 0 8px;">Example 2: Fake "delivery" or "document"</h2>
+    <p style="color: #666; margin: 0 0 16px;">Training example only.</p>
+  </div>
+
+  <div class="email-example">
+    <div class="email-header">
+      <div class="email-from">
+        <span class="label">From:</span>
+        <strong>Amazon</strong> &lt;ship@amaz0n-orders[.]support&gt;
+      </div>
+      <div class="email-subject">
+        <span class="label">Subject:</span>
+        Your package could not be delivered
+      </div>
+    </div>
+    <div class="email-body">
+      <p>We tried to deliver your order but the address was incorrect.</p>
+      <p>Confirm your details and reschedule: <a href="#">Update delivery</a></p>
+      <p>Thank you,<br>Amazon</p>
+      <div class="red-flag">
+        <strong>Why this is suspicious</strong>
+        The real sender is <span class="defanged">ship@amaz0n-orders[.]support</span> — zero instead of O, and the domain ends in <span class="defanged">.support</span>, not .com. Amazon's real emails come from @amazon.com (or similar). Never enter payment or address details from a link in an email; go to the site by typing amazon.com yourself.
+      </div>
+    </div>
+  </div>
+
+  <div class="scam-content">
+    <h2 style="margin: 0 0 8px;">Example 3: Urgent "boss" or "IT" request</h2>
+    <p style="color: #666; margin: 0 0 16px;">Training example only.</p>
+  </div>
+
+  <div class="email-example">
+    <div class="email-header">
+      <div class="email-from">
+        <span class="label">From:</span>
+        <strong>David Chen (CEO)</strong> &lt;d.chen@company-internal[.]xyz&gt;
+      </div>
+      <div class="email-subject">
+        <span class="label">Subject:</span>
+        Urgent – need gift cards today
+      </div>
+    </div>
+    <div class="email-body">
+      <p>Hi, I'm in a meeting and can't talk. I need you to buy $500 in Apple gift cards and send me the codes as soon as possible. Reply to this email with the codes.</p>
+      <p>Thanks,<br>David</p>
+      <div class="red-flag">
+        <strong>Why this is suspicious</strong>
+        Legitimate work requests don't come as "buy gift cards and send codes." The sender address <span class="defanged">d.chen@company-internal[.]xyz</span> uses a generic .xyz domain that a real company would not use for internal email. Verify by calling or messaging the person through a known channel (not replying to this email).
+      </div>
+    </div>
+  </div>
+
+  <div class="what-to-notice" style="margin-top: 24px;">
+    <div class="section">
+      <strong>Quick checklist: evaluating the true sender</strong>
+      (1) Ignore the display name; look at the <strong>actual email address</strong> after the &lt; &gt; or in "From" details. (2) Check if the domain (the part after @) is really the company's — no typos, no .xyz/.top/.click instead of .com. (3) Hover over links to see the real URL before clicking. (4) Don't reply or click when the message is urgent and asks for login, payment, or gift cards; go to the real site or contact the person another way.
+    </div>
+  </div>
+
+  <a class="back-link" href="index.html">← All fraud scenarios</a>
+</body>
+</html>

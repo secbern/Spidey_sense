@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  min-width: 260px;
+  max-width: 340px;
+}
+
+#root {
+  padding: 12px 14px 14px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.risk-label {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+.risk-label.low {
+  background-color: #e3f5e1;
+  color: #1b5e20;
+}
+
+.risk-label.medium {
+  background-color: #fff3cd;
+  color: #ff6f00;
+}
+
+.risk-label.high {
+  background-color: #ffebee;
+  color: #b00020;
+}
+
+.risk-label.off {
+  background-color: #eceff1;
+  color: #37474f;
+}
+
+.risk-score {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.risk-note {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #2e7d32;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn.danger {
+  background-color: #b00020;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn:focus {
+  outline: 3px solid #000;
+  outline-offset: 1px;
+}
+
