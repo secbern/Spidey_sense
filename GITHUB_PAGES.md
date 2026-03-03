@@ -18,12 +18,14 @@ git commit -m "Initial commit: Spidey Sense extension + training site"
 On GitHub: **New repository** (e.g. name: `Spidey_sense` or `spidey-sense`). Do **not** add a README (you already have one). Then:
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+# If you already added origin with a placeholder, fix it first:
+git remote set-url origin https://github.com/YOUR_USERNAME/Spidey_sense.git
+
 git branch -M main
 git push -u origin main
 ```
 
-(Replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your GitHub username and repo name.)
+**Important:** Replace `YOUR_USERNAME` with your actual GitHub username (e.g. `mberninger`). Create the repository on GitHub first (same name: `Spidey_sense`) before pushing.
 
 ### 2. Turn on GitHub Pages
 
